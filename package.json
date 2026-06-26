@@ -1,0 +1,35 @@
+{
+  "name": "building-restful-apis-with-node.js-and-express",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/amit-kumaar/Building-RESTful-APIs-with-Node.js-and-Express#readme",
+  "bugs": {
+    "url": "https://github.com/amit-kumaar/Building-RESTful-APIs-with-Node.js-and-Express/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amit-kumaar/Building-RESTful-APIs-with-Node.js-and-Express.git"
+  },
+  "license": "ISC",
+  "author": "Amit",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "graphql": "^16.14.2",
+    "graphql-http": "^1.22.4",
+    "mongoose": "^9.7.2",
+    "ruru": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^8.0.1",
+    "@babel/core": "^8.0.1",
+    "@babel/node": "^8.0.1",
+    "@babel/preset-env": "^8.0.2",
+    "nodemon": "^3.1.14"
+  }
+}
